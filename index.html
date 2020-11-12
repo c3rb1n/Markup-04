@@ -10,117 +10,128 @@
           crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="bg-color-gray text-font-family text-size-small">
 
 <!-- Header -->
 
-<header>
-    <nav>
-        <div class="wrapper">
-            <ul class="nav">
-                <li class="nav-item"><a href="#">Доставка</a></li>
-                <li class="nav-item"><a href="#">Оплата</a></li>
-                <li class="nav-item"><a href="#">Отзывы</a></li>
-                <li class="nav-item"><a href="#">Вопрос - ответ</a></li>
-                <li class="nav-item"><a href="#">Контакты</a></li>
-            </ul>
+<header class="bg-color-white">
+    <div class="bg-color-gray">
+        <nav class="wrapper nav">
+            <div class="top-nav">
+                <a class="top-nav-item text-color-dark nav-item-hover-underline" href="#">Доставка</a>
+                <a class="top-nav-item text-color-dark nav-item-hover-underline" href="#">Оплата</a>
+                <a class="top-nav-item text-color-dark nav-item-hover-underline" href="#">Отзывы</a>
+                <a class="top-nav-item text-color-dark nav-item-hover-underline" href="#">Вопрос - ответ</a>
+                <a class="top-nav-item text-color-dark nav-item-hover-underline" href="#">Контакты</a>
+            </div>
+        </nav>
+    </div>
+    <div class="wrapper header-top">
+        <div class="header-top-title">
+            <a href="#"><img class="header-top-title-image" src="img/logo.svg" alt="Logo"></a>
+            <h1 class="title header-top-title-text title-size-medium text-letter-spacing-large text-color-green">
+                BEAUTY</h1>
         </div>
-    </nav>
-    <div class="header">
-        <div class="header-top">
-            <div class="wrapper">
-                <div class="header-logo">
-                    <img src="img/logo.svg" alt="Logo">
-                    <h1 class="header-title">BEAUTY</h1>
-                </div>
-                <div class="header-info">
-                    <span>8 (812) 123-45-67</span>
-                    <a class="btn" href="#">Обратный звонок</a>
-                </div>
-            </div>
-            <hr>
-            <div class="header-bottom">
-                <nav>
-                    <div class="wrapper">
-                        <ul class="header-bottom-links" id="nav">
-                            <li class="header-bottom-link"><a href="#">Парикмахерская</a></li>
-                            <li class="header-bottom-link"><a href="#">Барбершоп</a></li>
-                            <li class="header-bottom-link"><a href="#">Маникюр</a></li>
-                            <li class="header-bottom-link"><a href="#">Педикюр</a></li>
-                            <li class="header-bottom-link"><a href="#">Массаж</a></li>
-                            <li class="header-bottom-link"><a href="#">Мебель</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+        <div class="header-top-info">
+            <span class="header-top-info-phone text-size-medium text-color-black">8 (812) 123-45-67</span>
+            <a class="btn btn-medium btn-border btn-border-green text-color-black bg-hover-white" href="#">Обратный
+                звонок</a>
+        </div>
+    </div>
+    <hr class="bg-color-gray horizontal-line"/>
+    <div class="wrapper nav">
+        <div class="bottom-nav">
+            <a class="bottom-nav-item text-size-medium text-color-black nav-item-hover-underline" href="#">Парикмахерская</a>
+            <a class="bottom-nav-item text-size-medium text-color-black nav-item-hover-underline" href="#">Барбершоп</a>
+            <a class="bottom-nav-item text-size-medium text-color-black nav-item-hover-underline" href="#">Маникюр</a>
+            <a class="bottom-nav-item text-size-medium text-color-black nav-item-hover-underline" href="#">Педикюр</a>
+            <a class="bottom-nav-item text-size-medium text-color-black nav-item-hover-underline" href="#">Массаж</a>
+            <a class="bottom-nav-item text-size-medium text-color-black nav-item-hover-underline" href="#">Мебель</a>
         </div>
     </div>
 </header>
 
 <!-- Banner -->
 
-<section class="banner">
-    <div class="wrapper">
-        <h2>Супер кресло</h2>
-        <p>Текст акции всегда отражает суть, а не просто<br>болтовню, поэтому внимательнее</p>
-        <a href="">Подробнее</a>
+<section class="bg-color-green">
+    <div class="banner">
+        <div class="wrapper banner-info">
+            <h2 class="title banner-title title-size-large text-color-white">Супер кресло</h2>
+            <p class="banner-text text-line-height-large text-color-white">Текст акции всегда отражает суть, а не просто<br>болтовню,
+                поэтому внимательнее</p>
+            <a class="btn banner-btn btn-medium btn-border btn-border-white text-letter-spacing-small text-color-white text-color-hover bg-hover-green"
+               href="#">Подробнее</a>
+        </div>
     </div>
 </section>
 
 <!-- Products -->
 
-<section class="products">
-    <div class="wrapper">
-        <div class="products-top">
-            <h3>Специальные предложения</h3>
-            <img src="img/car.svg" alt="Car">
+<section class="wrapper">
+    <div class="products-title">
+        <h3 class="title products-title-text title-size-small">Специальные предложения</h3>
+        <img class="products-title-image" src="img/car.svg" alt="Car">
+    </div>
+    <div class="products-items">
+        <div class="bg-color-white products-item">
+            <img class="products-item-image" src="img/chair.png" alt="Chair">
+            <p class="products-item-info text-line-height-small text-color-dark">Парикмахерское кресло<br>«Норм»
+                гидравлическое</p>
+            <p class="products-item-price text-size-large text-letter-spacing-small">9 900 ₽</p>
+            <a class="btn bg-color-green btn-small btn-border btn-border-green text-letter-spacing-small text-color-white text-color-hover bg-hover-green"
+               href="#">Купить</a>
         </div>
-        <div class="products-items">
-            <div class="products-item">
-                <img src="img/chair.png" alt="Chair">
-                <p class="item-info">Парикмахерское кресло<br>«Норм» гидравлическое</p>
-                <p class="item-price">9 900 ₽</p>
-                <a href="#">Купить</a>
-            </div>
-            <div class="products-item second">
-                <img src="img/chair.png" alt="Chair">
-                <p class="item-info">Парикмахерское кресло<br>«Норм» гидравлическое</p>
-                <p class="item-price">9 900 ₽</p>
-                <a href="#">Купить</a>
-            </div>
-            <div class="products-item third">
-                <img src="img/chair.png" alt="Chair">
-                <p class="item-info">Парикмахерское кресло<br>«Норм» гидравлическое</p>
-                <p class="item-price">9 900 ₽</p>
-                <a href="#">Купить</a>
-            </div>
-            <div class="products-item">
-                <img src="img/chair.png" alt="Chair">
-                <p class="item-info">Парикмахерское кресло<br>«Норм» гидравлическое</p>
-                <p class="item-price">9 900 ₽</p>
-                <a href="#">Купить</a>
-            </div>
+        <div class="bg-color-white products-item">
+            <img class="products-item-image" src="img/chair.png" alt="Chair">
+            <p class="products-item-info text-line-height-small text-color-dark">Парикмахерское кресло<br>«Норм»
+                гидравлическое</p>
+            <p class="products-item-price text-size-large text-letter-spacing-small">9 900 ₽</p>
+            <a class="btn bg-color-green btn-small btn-border btn-border-green text-letter-spacing-small text-color-white text-color-hover bg-hover-green"
+               href="#">Купить</a>
+        </div>
+        <div class="bg-color-white products-item">
+            <img class="products-item-image" src="img/chair.png" alt="Chair">
+            <p class="products-item-info text-line-height-small text-color-dark">Парикмахерское кресло<br>«Норм»
+                гидравлическое</p>
+            <p class="products-item-price text-size-large text-letter-spacing-small">9 900 ₽</p>
+            <a class="btn bg-color-green btn-small btn-border btn-border-green text-letter-spacing-small text-color-white text-color-hover bg-hover-green"
+               href="#">Купить</a>
+        </div>
+        <div class="bg-color-white products-item">
+            <img class="products-item-image" src="img/chair.png" alt="Chair">
+            <p class="products-item-info text-line-height-small text-color-dark">Парикмахерское кресло<br>«Норм»
+                гидравлическое</p>
+            <p class="products-item-price text-size-large text-letter-spacing-small">9 900 ₽</p>
+            <a class="btn bg-color-green btn-small btn-border btn-border-green text-letter-spacing-small text-color-white text-color-hover bg-hover-green"
+               href="#">Купить</a>
         </div>
     </div>
 </section>
 
 <!-- Cards -->
 
-<section class="cards">
-    <div class="wrapper">
-        <div class="cards-item">
-            <div class="cards-item-info">
-                <h4>Получайте бонусы и подарки</h4>
-                <p>Каждый месяц разыгрываем<br>10 000 рублей для наших клиентов</p>
-                <input type="email" placeholder="Введите e-mail">
+<section class="wrapper">
+    <div class="cards-items">
+        <div class="cards-item cards-item-first bg-color-green">
+            <div class="cards-item-info-first">
+                <h4 class="title cards-item-info-title title-size-smallest text-color-white">Получайте бонусы и
+                    подарки</h4>
+                <p class="cards-item-info-text text-line-height-small text-color-white">Каждый месяц разыгрываем<br>10
+                    000 рублей для наших клиентов</p>
+                <label for="cards-item-info-input">
+                    <input id="cards-item-info-input" class="input cards-item-info-input" type="email" placeholder="Введите e-mail">
+                </label>
             </div>
-            <img src="img/envelope.svg" alt="Envelope">
+            <img class="cards-item-image" src="img/envelope.svg" alt="Envelope">
         </div>
-        <div class="cards-item">
-            <div class="cards-item-info">
-                <h4>Заходите к нам</h4>
-                <p>Более 300 магазинов<br>по всей России</p>
-                <a href="#">Карта магазинов</a>
+        <div class="cards-item cards-item-second bg-color-green">
+            <div class="cards-item-info-second">
+                <h4 class="title cards-item-info-title cards-item-info-title-second title-size-smallest text-color-white">
+                    Заходите к нам</h4>
+                <p class="cards-item-info-text-second text-line-height-small text-color-white">Более 300 магазинов<br>по
+                    всей России</p>
+                <a class="btn cards-item-info-btn btn-medium btn-border btn-border-white text-color-white text-color-hover bg-hover-green"
+                   href="#">Карта магазинов</a>
             </div>
         </div>
     </div>
@@ -129,26 +140,29 @@
 <!-- Footer -->
 
 <footer class="footer">
-    <div class="footer-top">
-        <div class="wrapper">
-            <ul class="footer-top-social">
-                <li class="footer-top-social-item"><a href="#" class="youtube-icon"></a></li>
-                <li class="footer-top-social-item"><a href="#" class="vk-icon"></a></li>
-                <li class="footer-top-social-item"><a href="#" class="facebook-icon"></a></li>
-                <li class="footer-top-social-item"><a href="#" class="instagram-icon"></a></li>
-            </ul>
+    <div class="bg-color-white">
+        <div class="wrapper footer-top">
+            <div class="footer-top-social">
+                <a class="btn btn-smallest btn-smallest-first-child btn-border btn-border-green bg-hover-white bg-youtube-green bg-youtube-hover-white"
+                   href="#"></a>
+                <a class="btn btn-smallest btn-border btn-border-green bg-hover-white bg-vk-green bg-vk-hover-white"
+                   href="#"></a>
+                <a class="btn btn-smallest btn-border btn-border-green bg-hover-white bg-facebook-green bg-facebook-hover-white"
+                   href="#"></a>
+                <a class="btn footer-top-social-btn-last btn-smallest btn-border btn-border-green bg-hover-white bg-instagram-green bg-instagram-hover-white"
+                   href="#"></a>
+            </div>
             <div class="footer-top-info">
-                <span class="address">198555, Невский пр. 140, офис 140</span>
-                <span class="phone">8 (812) 123-45-67</span>
-                <a class="btn" href="#">Обратный звонок</a>
+                <span class="footer-top-info-address">198555, Невский пр. 140, офис 140</span>
+                <span class="footer-top-info-phone text-size-medium text-color-black">8 (812) 123-45-67</span>
+                <a class="btn btn-medium btn-border btn-border-green text-color-black bg-hover-white" href="#">Обратный
+                    звонок</a>
             </div>
         </div>
     </div>
-    <div class="footer-bottom">
-        <div class="wrapper">
-            <span class="copyright">Лучший магазин (с) 2019 Все права защищены. Интернет-магазин оборудования для салонов красоты</span>
-            <span class="privacy-policy"><a href="#">Политика конфиденциальности</a></span>
-        </div>
+    <div class="wrapper footer-bottom">
+        <span class="footer-bottom-copyright text-size-smallest text-color-gray">Лучший магазин (с) 2019 Все права защищены. Интернет-магазин оборудования для салонов красоты</span>
+        <span><a class="footer-bottom-privacy-policy text-size-smallest text-color-gray" href="#">Политика конфиденциальности</a></span>
     </div>
 </footer>
 </body>
