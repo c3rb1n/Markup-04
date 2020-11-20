@@ -167,7 +167,7 @@
 
 .btn {
     text-decoration: none;
-    transition: 0.3s ease;
+    transition: 0.3s background-color;
 }
 
 .btn-medium {
@@ -211,6 +211,7 @@
 .input {
     border: none;
     border-radius: 30px;
+    outline: none;
 }
 
 .input::-webkit-input-placeholder {
@@ -284,6 +285,7 @@
 
 .nav-item-hover-underline:hover {
     border-bottom: 3px solid #66C05D;
+    margin-bottom: 2px;
 }
 
 /*
@@ -340,6 +342,7 @@
 
 .banner {
     background: url("../img/bg.png") no-repeat center;
+    background-size: cover;
 }
 
 .banner-info {
